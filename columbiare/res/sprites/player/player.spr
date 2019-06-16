@@ -1,0 +1,7 @@
+a stand
+i 1 sprites/player/pigeon-walk0.png
+a walk
+i 8 sprites/player/pigeon-walk0.png
+i 8 sprites/player/pigeon-walk1.png
+i 8 sprites/player/pigeon-walk0.png
+i 8 sprites/player/pigeon-walk2.png

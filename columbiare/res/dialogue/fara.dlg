@@ -1,0 +1,63 @@
+t a1s1
+
+s Fara
+l Are you going to get some flowers?
+s Columbiare
+l Yeah, I'm going. Get well soon.
+s Fara
+l Thanks. It's all because of you.
+
+c
+s Fara
+l Bye, Columbiare! Be safe!
+
+t a1s2
+
+s Fara
+l Columbiare, did you get the flower?
+
+s Columbiare
+l Yeah, here you go.
+d received
+
+s Fara
+l Thanks, Columbiare.
+s Columbiare
+l You're welcome.
+
+c
+s Fara
+l Thanks again, Columbiare.
+
+t a2s1
+s Columbiare
+l I think I'm going to go fulfill a promise to Amia now.
+
+t a3s1
+
+s Fara
+l Columbiare, did you go back up to get more flowers?
+
+s Columbiare
+l No
+
+s Fara
+l What happened?
+l Are you ok?
+
+s Columbiare
+l ...
+
+c
+s Fara
+l Columbiare, what happened?
+
+c
+s Fara
+l You know you don't have to get the flowers every day, right?
+l I just wanted you to see the flowers I grew.
+
+s Columbiare
+l What.
+
+d reveal

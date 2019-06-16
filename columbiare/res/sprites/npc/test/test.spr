@@ -1,0 +1,5 @@
+a stand
+i 1 sprites/arrow.png
+a wander
+i 10 sprites/arrow.png
+i 5 sprites/thatg.png

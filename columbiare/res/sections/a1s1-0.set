@@ -1,0 +1,36 @@
+# Teleport to the village
+tp 7168 2048 7168
+# pan 0 1500 4
+# pan -1024 0 4
+panto 5024 3264 4
+
+wait 30
+
+tp 480 384
+panto 352 96 4
+
+# Pan around like an idiot
+# wait 45
+# pan 512 0 4
+# wait 30
+# pan 0 -256 4
+# wait 30
+# pan -1024 0 4
+# wait 30
+
+text Fara Columbiare?
+text Fara I need your help!
+
+panto 835 182 4
+
+text Columbiare Yeah, I'm right here.
+text Columbiare Hold on.
+
+wait 30
+
+text Edward By the way, don't steal.
+text Longhao No, you should steal.
+text Edward Don't
+
+# Pan to Columbiare
+section com.glowingpigeon.columbiare.state.premade.A1S1_1

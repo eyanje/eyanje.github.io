@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": ["dom", "es2015", "es2019"]
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}

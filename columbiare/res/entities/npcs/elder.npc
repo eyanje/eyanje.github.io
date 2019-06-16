@@ -1,0 +1,4 @@
+name Elder
+bounds 320 320 64 64
+sprite sprites/columbiare/columbiare.spr
+dialogue dialogue/elder.dlg
