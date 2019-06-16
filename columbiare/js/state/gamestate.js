@@ -222,6 +222,7 @@ define(["require", "exports", "../graphics", "../world/entity/player", "../world
             if (this.section) {
                 this.section.update();
             }
+            this.ui.update();
             this.npcs.forEach(function (npc) {
                 npc.update();
             });

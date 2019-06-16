@@ -258,6 +258,8 @@ export class PlayState extends GameState {
         if (this.section) {
             this.section.update();
         }
+
+        this.ui.update();
         
         this.npcs.forEach((npc) => {
             npc.update();

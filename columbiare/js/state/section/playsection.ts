@@ -72,8 +72,6 @@ export class PlaySection extends Section {
         }
         super.update();
         
-        this.parent.ui.update();
-
         if (this.interact) {
             if (this.parent.ui.isOpen()) {
                 this.parent.ui.interact();

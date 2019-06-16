@@ -196,7 +196,7 @@ export class SetSection extends Section {
                 }
                 break;
                 case "text": {
-                    if (data.trim().length > 0) {
+                    if (data.length == 0) {
                         // Keep going through old text
                         if (this.interact) {
                             this.parent.ui.interact();

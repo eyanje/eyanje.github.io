@@ -85,7 +85,6 @@ define(["require", "exports", "./section"], function (require, exports, section_
                 this.parent.player.move(this.parent, this.moves[0], this.moves[1], this.moves[2], this.moves[3]);
             }
             _super.prototype.update.call(this);
-            this.parent.ui.update();
             if (this.interact) {
                 if (this.parent.ui.isOpen()) {
                     this.parent.ui.interact();

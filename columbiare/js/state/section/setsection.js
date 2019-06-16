@@ -199,7 +199,7 @@ define(["require", "exports", "./section", "../../data/resourcemanager", "./prem
                         break;
                     case "text":
                         {
-                            if (data.trim().length > 0) {
+                            if (data.length == 0) {
                                 // Keep going through old text
                                 if (this.interact) {
                                     this.parent.ui.interact();
