@@ -5,7 +5,7 @@ export function getLines(path: string, parent, callback: Function): void {
 
     fetch('./res/' + path).then(response => {
         response.body.getReader().read().then(result => {
-            lines = new TextDecoder('utf-8').decode(result.value).split('\r\n');
+            lines = new TextDecoder('utf-8').decode(result.value).split('\n');
             callback.apply(parent, [lines]);
         });
     }).catch(reason => {

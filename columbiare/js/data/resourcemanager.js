@@ -5,7 +5,7 @@ define(["require", "exports"], function (require, exports) {
         var lines = undefined;
         fetch('./res/' + path).then(function (response) {
             response.body.getReader().read().then(function (result) {
-                lines = new TextDecoder('utf-8').decode(result.value).split('\r\n');
+                lines = new TextDecoder('utf-8').decode(result.value).split('\n');
                 callback.apply(parent, [lines]);
             });
         })["catch"](function (reason) {
