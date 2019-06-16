@@ -218,7 +218,7 @@ export class PlayState extends GameState {
         }
         if (!this.sectionName) {
             console.warn("No section specified in save");
-            this.sectionName = "section/premade/A1S1_0";
+            this.sectionName = "com.glowingpigeon.columbiare.section.premade.A1S1_0";
         }
     }
 

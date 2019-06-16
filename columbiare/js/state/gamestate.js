@@ -189,7 +189,7 @@ define(["require", "exports", "../graphics", "../world/entity/player", "../world
             }
             if (!this.sectionName) {
                 console.warn("No section specified in save");
-                this.sectionName = "section/premade/A1S1_0";
+                this.sectionName = "com.glowingpigeon.columbiare.section.premade.A1S1_0";
             }
         };
         PlayState.prototype.getNPCByName = function (name) {
