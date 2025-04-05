@@ -1,4 +1,0 @@
-name Fara
-bounds 320 64 64 64
-sprite sprites/npc/fara/fara.spr
-dialogue dialogue/fara.dlg
