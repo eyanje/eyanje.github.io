@@ -2,7 +2,7 @@
 layout: post
 date: 2025-05-02
 title: Learning Laravel for Work Log
-categories: update personal-projects
+categories: personal-projects updates
 ---
 
 ## Work Log
