@@ -18,18 +18,18 @@ to secondary sources. However, the data cannot yet be reimported, and the
 exported data doesn't remember its book.
 
 <figure>
-	<img alt="A book without a bookmark" src="/assets/img/2025-05-23-unbookmarking-a-book.png" />
+	<img alt="A book without a bookmark" src="/assets/images/2025-05-23-unbookmarking-a-book.png" />
 	<figcaption>This book does not appear in the sidebar.</figcaption>
 </figure>
 
 <figure>
-	<img alt="User interface for a library" src="/assets/img/2025-05-23-library.png" />
+	<img alt="User interface for a library" src="/assets/images/2025-05-23-library.png" />
 	<figcaption>If a book is not bookmarked, it is still accessible in the
 	library.</figcaption>
 </figure>
 
 <figure>
-	<img alt="Page showing a button to export a book" src="/assets/img/2025-05-23-exporting-a-book.png" />
+	<img alt="Page showing a button to export a book" src="/assets/images/2025-05-23-exporting-a-book.png" />
 	<figcaption>A book can be exported as an iCalendar file.</figcaption>
 </figure>
 

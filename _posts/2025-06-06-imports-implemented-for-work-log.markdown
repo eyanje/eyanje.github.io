@@ -14,7 +14,7 @@ a book as a backup. However, this feature isn't stable yet. The backup form is a
 single part of the settings page without any confirmation, so it also needs
 work, but it's functional.
 
-![A form to import a book](/assets/img/2025-06-06-import-form.png)
+![A form to import a book](/assets/images/2025-06-06-import-form.png)
 
 ### Branding
 

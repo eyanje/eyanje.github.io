@@ -55,14 +55,14 @@ nmcli connection modify OpenWrt ipv6.addresses 2600:4040:538f:7200:906a:5250:8a2
    server.
 
    ![Allowing HTTPS traffic through
-   LuCI](/assets/img/2025-07-11-firewall-allow-https.png)
+   LuCI](/assets/images/2025-07-11-firewall-allow-https.png)
 
    It should now be possible to access the site on the working router.
 
 7. Enable DMZ in the working router, exposing the old router to the internet.
 
    ![Enabling DMZ in a Verizon FiOS
-   router](/assets/img/2025-07-11-enable-dmz.png)
+   router](/assets/images/2025-07-11-enable-dmz.png)
 
    It should now be possible to ping the router on mobile data, and
    the site should now be accessible to any machine on the internet with the
@@ -76,7 +76,7 @@ nmcli connection modify OpenWrt ipv6.addresses 2600:4040:538f:7200:906a:5250:8a2
 8. Set up global DNS records. Specifically, add an AAAA record pointing to your
    server's public IPv6 address.
 
-   ![Adding a DNS record](/assets/img/2025-07-11-adding-a-dns-record.png)
+   ![Adding a DNS record](/assets/images/2025-07-11-adding-a-dns-record.png)
 
    I did this through my registrar Cloudflare's website.
 
@@ -105,7 +105,7 @@ Peer settings, and, for every machine, enabled the "Route Allowed IPs" setting.
 This enabled packets to return back to the specified machine.
 
 ![Enabling the Route Allowed IPs
-setting](/assets/img/2025-07-11-route-allowed-ips.png)
+setting](/assets/images/2025-07-11-route-allowed-ips.png)
 
 Since I wanted the server to always be accessible, I also needed to allow
 WireGuard through its firewall, and I needed to keep an entry in my router's

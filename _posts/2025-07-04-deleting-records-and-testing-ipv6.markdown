@@ -9,12 +9,12 @@ categories: personal-projects updates
 
 Work Log supports deleting records.
 
-![Selecting the option to delete a record](/assets/img/2025-07-04-deleting-a-record.gif)
+![Selecting the option to delete a record](/assets/images/2025-07-04-deleting-a-record.gif)
 
 I also added a page to edit records, though
 there is no backend support yet.
 
-![The page to edit a record](/assets/img/2025-07-04-editing-a-record.png)
+![The page to edit a record](/assets/images/2025-07-04-editing-a-record.png)
 
 I should have started developing these features a lot earlier, but I think
 progress has slowed a lot because I had been filing an issue on GitHub for every

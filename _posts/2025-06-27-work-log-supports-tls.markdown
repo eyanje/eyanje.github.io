@@ -9,7 +9,7 @@ Work Log now uses self-signed certificates for TLS. These aren't as secure as
 [Let's Encrypt](https://letsencrypt.org/)'s certificates, but I wanted to try to
 set up the certificates myself.
 
-![SSL is enabled for the server](/assets/img/2025-06-27-ssl-enabled.png)
+![SSL is enabled for the server](/assets/images/2025-06-27-ssl-enabled.png)
 
 Based on the examples in [openssl-req's manual
 entry](https://docs.openssl.org/master/man1/openssl-req/), I wrote the following
