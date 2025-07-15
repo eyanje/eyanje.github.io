@@ -8,6 +8,10 @@
 .project-list {
   margin-left: 0;
   list-style: none;
+
+  li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .project-list-heading {
@@ -15,7 +19,6 @@
 }
 
 .project-title {
-  margin-top: $spacing-unit;
   @include relative-font-size(1.5);
   margin-bottom: 0;
 }
@@ -27,5 +30,4 @@
 
 .post-list-heading {
   @include section-header;
-  margin-top: $spacing-unit;
 }
