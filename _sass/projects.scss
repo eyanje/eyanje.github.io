@@ -1,7 +1,7 @@
-@use 'minima';
+@import 'minima';
 
 @mixin section-header {
-  @include minima.relative-font-size(1.75);
+  @include relative-font-size(1.75);
   border-bottom: 0.1em solid #ccc;
 }
 
@@ -15,17 +15,17 @@
 }
 
 .project-title {
-  margin-top: minima.$spacing-unit;
-  @include minima.relative-font-size(1.5);
+  margin-top: $spacing-unit;
+  @include relative-font-size(1.5);
   margin-bottom: 0;
 }
 
 .project-github {
-  @include minima.relative-font-size(0.9);
+  @include relative-font-size(0.9);
   display: block;
 }
 
 .post-list-heading {
   @include section-header;
-  margin-top: minima.$spacing-unit;
+  margin-top: $spacing-unit;
 }
