@@ -1,0 +1,31 @@
+@use 'minima';
+
+@mixin section-header {
+  @include minima.relative-font-size(1.75);
+  border-bottom: 0.1em solid #ccc;
+}
+
+.project-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.project-list-heading {
+  @include section-header;
+}
+
+.project-title {
+  margin-top: minima.$spacing-unit;
+  @include minima.relative-font-size(1.5);
+  margin-bottom: 0;
+}
+
+.project-github {
+  @include minima.relative-font-size(0.9);
+  display: block;
+}
+
+.post-list-heading {
+  @include section-header;
+  margin-top: minima.$spacing-unit;
+}

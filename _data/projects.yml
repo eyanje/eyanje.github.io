@@ -1,0 +1,10 @@
+
+- title: Work Log
+  url: https://journal.eyanje.net
+  github: eyanje/work-log
+  description: A simple timekeeping web application.
+
+- title: HID Server
+  github: eyanje/hid-server
+  description: A daemon to proxy HID connections through Unix sockets, written in Rust.
+
