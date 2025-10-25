@@ -2,6 +2,7 @@
 layout: post
 date: 2025-10-24
 title: Normalizing calendar data
+categories: weekly-updates
 ---
 
 Following [a recommendation on
