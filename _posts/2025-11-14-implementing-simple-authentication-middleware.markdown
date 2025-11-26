@@ -37,7 +37,7 @@ of type `Pin<Box<dyn Future<Output = ...>>>`, which queries the database and
 defers to the inner layer.
 
 To attach the user id, I defined a `struct UserId(i32)`, implementing
-`IntoRequestParts`. This custom type can be added to a request through
+`FromRequestParts`. This custom type can be added to a request through
 [extensions\_mut](https://docs.rs/http/latest/http/request/struct.Request.html#method.extensions_mut),
 where it can then be extracted.
 
@@ -47,7 +47,7 @@ function can be used to signal readiness. Since the middleware is ready when it
 is constructed, this can return `inner.poll_ready()`.
 
 During implementation, one complication was the return type of the Future.
-Although the Future returns a Result, [Axum receives
+Although the Future returns a Result, [axum receives
 middleware](https://docs.rs/axum/latest/axum/struct.Router.html#method.layer)
 which never returns an Err.
 
