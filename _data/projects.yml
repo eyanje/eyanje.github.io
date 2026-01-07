@@ -8,3 +8,8 @@
   github: eyanje/hid-server
   description: A daemon to proxy HID connections through Unix sockets, written in Rust.
 
+- title: Is it Monday?
+  url: https://is-it-monday.eyanje.net
+  github: eyanje/is-it-monday
+  description: Tell us when it's Monday.
+
